@@ -15,7 +15,7 @@ Installed Nodejs >= v8.x
 npm start
 ```
 
-##### Notes
+#### Notes
 I asumed that the media was procesed before calling the API. By procesed I mean that the client has access to the metadata
 and that can add it to the different data fields. Also, that is stored in a url accesible by the client.
 
@@ -26,7 +26,7 @@ I asumed that to send a message you will need to have the sender token and not b
 Also I asumed that to get the messages, you will need to have the recipent token to access those messages.
 
 
-###### Users and tips
+#### Users and tips
 You can start testing the API by using the commands:
 
 POST /check just to check that everything is working and the database and tables are ok
